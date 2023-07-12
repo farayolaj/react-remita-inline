@@ -1,6 +1,6 @@
 {
-  "name": "@farayolaj/rri",
-  "description": "A React wrapper around Remita's Inline SDK. 'rri' stands for Remita React Inline.",
+  "name": "@farayolaj/react-remita-inline",
+  "description": "A React wrapper around Remita's Inline SDK.",
   "license": "MIT",
   "repository": "https://github.com/farayolaj/react-remita-inline.git",
   "version": "0.2.0",

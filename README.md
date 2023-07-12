@@ -7,19 +7,19 @@ This is a wrapper around Remita Inline SDK for React projects.
 **NPM**
 
 ```bash
-npm install @farayolaj/rri
+npm install @farayolaj/react-remita-inline
 ```
 
 **Yarn**
 
 ```bash
-yarn add @farayolaj/rri
+yarn add @farayolaj/react-remita-inline
 ```
 
 **PNPM**
 
 ```bash
-pnpm add @farayolaj/rri
+pnpm add @farayolaj/react-remita-inline
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ pnpm add @farayolaj/rri
 1. Imperative API.
 
 ```jsx
-import { useRemitaInline } from "@farayolaj/rri";
+import { useRemitaInline } from "@farayolaj/react-remita-inline";
 
 function Example() {
   const { initPayment } = useRemitaInline({
@@ -67,7 +67,7 @@ function Example() {
 2. Declarative API.
 
 ```jsx
-import { useRemitaInline } from "@farayolaj/rri";
+import { useRemitaInline } from "@farayolaj/react-remita-inline";
 
 function Example() {
   const { RemitaInlineButton } = useRemitaInline({
