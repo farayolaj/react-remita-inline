@@ -1,0 +1,48 @@
+{
+  "name": "@farayolaj/rri",
+  "description": "A React wrapper around Remita's Inline SDK. 'rri' stands for Remita React Inline.",
+  "license": "MIT",
+  "repository": "https://github.com/farayolaj/react-remita-inline.git",
+  "version": "0.2.0",
+  "keywords": [
+    "remita",
+    "react",
+    "inline",
+    "sdk"
+  ],
+  "homepage": "https://github.com/farayolaj/react-remita-inline#readme",
+  "bugs": "https://github.com/farayolaj/react-remita-inline/issues",
+  "author": "Joshua Farayola <farayolajoshua@gmail.com> (https://farayolaj.netlify.app/)",
+  "type": "module",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/types.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.2",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.20.2",
+    "rollup-plugin-dts": "^5.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "tslib": "^2.6.0",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
