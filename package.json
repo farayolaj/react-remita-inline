@@ -3,7 +3,7 @@
   "description": "A React wrapper around Remita's Inline SDK.",
   "license": "MIT",
   "repository": "https://github.com/farayolaj/react-remita-inline.git",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "keywords": [
     "remita",
     "react",
